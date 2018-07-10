@@ -1,0 +1,418 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>字符串和编码 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="python4.html" />
+    
+    
+    <link rel="prev" href="python2.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="readme.html">
+            
+                <a href="readme.html">
+            
+                    
+                    Python基础
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="python1.html">
+            
+                <a href="python1.html">
+            
+                    
+                    python第一个程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="python2.html">
+            
+                <a href="python2.html">
+            
+                    
+                    数据类型和变量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.3" data-path="python3.html">
+            
+                <a href="python3.html">
+            
+                    
+                    字符串和编码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="python4.html">
+            
+                <a href="python4.html">
+            
+                    
+                    使用list和tuple
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="python5.html">
+            
+                <a href="python5.html">
+            
+                    
+                    条件判断和循环
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="python6.html">
+            
+                <a href="python6.html">
+            
+                    
+                    dict和set
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >字符串和编码</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x5B57;&#x7B26;&#x4E32;&#x548C;&#x7F16;&#x7801;">&#x5B57;&#x7B26;&#x4E32;&#x548C;&#x7F16;&#x7801;</h1>
+<h3 id="&#x5B57;&#x7B26;&#x7F16;&#x7801;">&#x5B57;&#x7B26;&#x7F16;&#x7801;</h3>
+<p>Unicode&#x6807;&#x51C6;&#x4E5F;&#x5728;&#x4E0D;&#x65AD;&#x53D1;&#x5C55;&#xFF0C;&#x4F46;&#x6700;&#x5E38;&#x7528;&#x7684;&#x662F;&#x7528;&#x4E24;&#x4E2A;&#x5B57;&#x8282;&#x8868;&#x793A;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#xFF08;&#x5982;&#x679C;&#x8981;&#x7528;&#x5230;&#x975E;&#x5E38;&#x504F;&#x50FB;&#x7684;&#x5B57;&#x7B26;&#xFF0C;&#x5C31;&#x9700;&#x8981;4&#x4E2A;&#x5B57;&#x8282;&#xFF09;&#x3002;&#x73B0;&#x4EE3;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x548C;&#x5927;&#x591A;&#x6570;&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#x90FD;&#x76F4;&#x63A5;&#x652F;&#x6301;Unicode&#x3002;
+&#x73B0;&#x5728;&#xFF0C;&#x634B;&#x4E00;&#x634B;ASCII&#x7F16;&#x7801;&#x548C;Unicode&#x7F16;&#x7801;&#x7684;&#x533A;&#x522B;&#xFF1A;ASCII&#x7F16;&#x7801;&#x662F;1&#x4E2A;&#x5B57;&#x8282;&#xFF0C;&#x800C;Unicode&#x7F16;&#x7801;&#x901A;&#x5E38;&#x662F;2&#x4E2A;&#x5B57;&#x8282;&#x3002;
+| &#x5B57;&#x7B26;  | ASCII | Unicode|UTF-8|
+|--     |--     |--      |--   |
+| A     | 01000001 |00000000 01000001 |01000001|
+| &#x4E2D;| x | 01001110 00101101 |11100100 10111000 10101101|</p>
+<h3 id="python&#x5B57;&#x7B26;&#x4E32;">Python&#x5B57;&#x7B26;&#x4E32;</h3>
+<p>&#x5728;&#x6700;&#x65B0;&#x7684;Python 3&#x4E2D; &#x5B57;&#x7B26;&#x4E32;&#x662F;&#x4EE5;Unicode&#x7F16;&#x7801;&#x7684;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x8BF4;Python&#x5B57;&#x7B26;&#x4E32;&#x652F;&#x6301;&#x591A;&#x79CD;&#x8BED;&#x8A00;</p>
+<pre><code>&gt;&gt;&gt; print(&apos;&#x5305;&#x542B;&#x4E2D;&#x6587;&#x7684;str&apos;)
+&#x5305;&#x542B;&#x4E2D;&#x6587;&#x7684;str
+</code></pre><p>&#x5BF9;&#x4E8E;&#x5355;&#x4E2A;&#x5B57;&#x7B26;&#x7684;&#x7F16;&#x7801;&#xFF0C;Python&#x63D0;&#x4F9B;&#x4E86;ord()&#x51FD;&#x6570;&#x83B7;&#x53D6;&#x5B57;&#x7B26;&#x7684;&#x6574;&#x6570;&#x8868;&#x793A;&#xFF0C;chr()&#x51FD;&#x6570;&#x628A;&#x7F16;&#x7801;&#x8F6C;&#x6362;&#x4E3A;&#x5BF9;&#x5E94;&#x7684;&#x5B57;&#x7B26;&#xFF1A;</p>
+<pre><code>&gt;&gt;&gt; ord(&apos;A&apos;)
+65
+&gt;&gt;&gt; ord(&apos;&#x4E2D;&apos;)
+20013
+&gt;&gt;&gt; chr(66)
+&apos;B&apos;
+&gt;&gt;&gt; chr(25991)
+&apos;&#x6587;&apos;
+</code></pre><p>&#x7531;&#x4E8E;Python&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x7C7B;&#x578B;&#x662F;str&#xFF0C;&#x5728;&#x5185;&#x5B58;&#x4E2D;&#x4EE5;Unicode&#x8868;&#x793A;&#xFF0C;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x5BF9;&#x5E94;&#x82E5;&#x5E72;&#x4E2A;&#x5B57;&#x8282;&#x3002;&#x5982;&#x679C;&#x8981;&#x5728;&#x7F51;&#x7EDC;&#x4E0A;&#x4F20;&#x8F93;&#xFF0C;&#x6216;&#x8005;&#x4FDD;&#x5B58;&#x5230;&#x78C1;&#x76D8;&#x4E0A;&#xFF0C;&#x5C31;&#x9700;&#x8981;&#x628A;str&#x53D8;&#x4E3A;&#x4EE5;&#x5B57;&#x8282;&#x4E3A;&#x5355;&#x4F4D;&#x7684;bytes&#x3002;
+Python&#x5BF9;bytes&#x7C7B;&#x578B;&#x7684;&#x6570;&#x636E;&#x7528;&#x5E26;b&#x524D;&#x7F00;&#x7684;&#x5355;&#x5F15;&#x53F7;&#x6216;&#x53CC;&#x5F15;&#x53F7;&#x8868;&#x793A;&#xFF1A;</p>
+<pre><code>x = b&apos;ABC&apos;
+</code></pre><p>&#x8981;&#x6CE8;&#x610F;&#x533A;&#x5206;&apos;ABC&apos;&#x548C;b&apos;ABC&apos;&#xFF0C;&#x524D;&#x8005;&#x662F;str&#xFF0C;&#x540E;&#x8005;&#x867D;&#x7136;&#x5185;&#x5BB9;&#x663E;&#x793A;&#x5F97;&#x548C;&#x524D;&#x8005;&#x4E00;&#x6837;&#xFF0C;&#x4F46;bytes&#x7684;&#x6BCF;&#x4E2A;&#x5B57;&#x7B26;&#x90FD;&#x53EA;&#x5360;&#x7528;&#x4E00;&#x4E2A;&#x5B57;&#x8282;&#x3002;
+&#x4EE5;Unicode&#x8868;&#x793A;&#x7684;str&#x901A;&#x8FC7;encode()&#x65B9;&#x6CD5;&#x53EF;&#x4EE5;&#x7F16;&#x7801;&#x4E3A;&#x6307;&#x5B9A;&#x7684;bytes&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;</p>
+<pre><code>&gt;&gt;&gt; &apos;ABC&apos;.encode(&apos;ascii&apos;)
+b&apos;ABC&apos;
+&gt;&gt;&gt; &apos;&#x4E2D;&#x6587;&apos;.encode(&apos;utf-8&apos;)
+b&apos;\xe4\xb8\xad\xe6\x96\x87&apos;
+&gt;&gt;&gt; &apos;&#x4E2D;&#x6587;&apos;.encode(&apos;ascii&apos;)
+Traceback (most recent call last):
+  File &quot;&lt;stdin&gt;&quot;, line 1, in &lt;module&gt;
+UnicodeEncodeError: &apos;ascii&apos; codec can&apos;t encode characters in position 0-1: ordinal not in range(128)
+</code></pre><p>&#x7EAF;&#x82F1;&#x6587;&#x7684;str&#x53EF;&#x4EE5;&#x7528;ASCII&#x7F16;&#x7801;&#x4E3A;bytes&#xFF0C;&#x5185;&#x5BB9;&#x662F;&#x4E00;&#x6837;&#x7684;&#xFF0C;&#x542B;&#x6709;&#x4E2D;&#x6587;&#x7684;str&#x53EF;&#x4EE5;&#x7528;UTF-8&#x7F16;&#x7801;&#x4E3A;bytes&#x3002;&#x542B;&#x6709;&#x4E2D;&#x6587;&#x7684;str&#x65E0;&#x6CD5;&#x7528;ASCII&#x7F16;&#x7801;&#xFF0C;&#x56E0;&#x4E3A;&#x4E2D;&#x6587;&#x7F16;&#x7801;&#x7684;&#x8303;&#x56F4;&#x8D85;&#x8FC7;&#x4E86;ASCII&#x7F16;&#x7801;&#x7684;&#x8303;&#x56F4;&#xFF0C;Python&#x4F1A;&#x62A5;&#x9519;&#x3002;</p>
+<p>&#x5728;bytes&#x4E2D;&#xFF0C;&#x65E0;&#x6CD5;&#x663E;&#x793A;&#x4E3A;ASCII&#x5B57;&#x7B26;&#x7684;&#x5B57;&#x8282;&#xFF0C;&#x7528;\x##&#x663E;&#x793A;&#x3002;
+&#x53CD;&#x8FC7;&#x6765;&#xFF0C;&#x5982;&#x679C;&#x6211;&#x4EEC;&#x4ECE;&#x7F51;&#x7EDC;&#x6216;&#x78C1;&#x76D8;&#x4E0A;&#x8BFB;&#x53D6;&#x4E86;&#x5B57;&#x8282;&#x6D41;&#xFF0C;&#x90A3;&#x4E48;&#x8BFB;&#x5230;&#x7684;&#x6570;&#x636E;&#x5C31;&#x662F;bytes&#x3002;&#x8981;&#x628A;bytes&#x53D8;&#x4E3A;str&#xFF0C;&#x5C31;&#x9700;&#x8981;&#x7528;decode()&#x65B9;&#x6CD5;&#xFF1A;</p>
+<pre><code>&gt;&gt;&gt; b&apos;ABC&apos;.decode(&apos;ascii&apos;)
+&apos;ABC&apos;
+&gt;&gt;&gt; b&apos;\xe4\xb8\xad\xe6\x96\x87&apos;.decode(&apos;utf-8&apos;)
+&apos;&#x4E2D;&#x6587;&apos;
+</code></pre><p>&#x5982;&#x679C;bytes&#x4E2D;&#x5305;&#x542B;&#x65E0;&#x6CD5;&#x89E3;&#x7801;&#x7684;&#x5B57;&#x8282;&#xFF0C;decode()&#x65B9;&#x6CD5;&#x4F1A;&#x62A5;&#x9519;&#xFF1A;</p>
+<pre><code>&gt;&gt;&gt; b&apos;\xe4\xb8\xad\xff&apos;.decode(&apos;utf-8&apos;)
+Traceback (most recent call last):
+  ...
+UnicodeDecodeError: &apos;utf-8&apos; codec can&apos;t decode byte 0xff in position 3: invalid start byte
+</code></pre><p>&#x5982;&#x679C;bytes&#x4E2D;&#x53EA;&#x6709;&#x4E00;&#x5C0F;&#x90E8;&#x5206;&#x65E0;&#x6548;&#x7684;&#x5B57;&#x8282;&#xFF0C;&#x53EF;&#x4EE5;&#x4F20;&#x5165;errors=&apos;ignore&apos;&#x5FFD;&#x7565;&#x9519;&#x8BEF;&#x7684;&#x5B57;&#x8282;&#xFF1A;</p>
+<pre><code>&gt;&gt;&gt; b&apos;\xe4\xb8\xad\xff&apos;.decode(&apos;utf-8&apos;, errors=&apos;ignore&apos;)
+&apos;&#x4E2D;&apos;
+</code></pre><p>&#x8981;&#x8BA1;&#x7B97;str&#x5305;&#x542B;&#x591A;&#x5C11;&#x4E2A;&#x5B57;&#x7B26;&#xFF0C;&#x53EF;&#x4EE5;&#x7528;len()&#x51FD;&#x6570;&#xFF1A;</p>
+<pre><code>&gt;&gt;&gt; len(&apos;ABC&apos;)
+3
+&gt;&gt;&gt; len(&apos;&#x4E2D;&#x6587;&apos;)
+2
+</code></pre><p>len()&#x51FD;&#x6570;&#x8BA1;&#x7B97;&#x7684;&#x662F;str&#x7684;&#x5B57;&#x7B26;&#x6570;&#xFF0C;&#x5982;&#x679C;&#x6362;&#x6210;bytes&#xFF0C;len()&#x51FD;&#x6570;&#x5C31;&#x8BA1;&#x7B97;&#x5B57;&#x8282;&#x6570;&#xFF1A;</p>
+<pre><code>&gt;&gt;&gt; len(b&apos;ABC&apos;)
+3
+&gt;&gt;&gt; len(b&apos;\xe4\xb8\xad\xe6\x96\x87&apos;)
+6
+&gt;&gt;&gt; len(&apos;&#x4E2D;&#x6587;&apos;.encode(&apos;utf-8&apos;))
+6
+</code></pre><p>&#x53EF;&#x89C1;&#xFF0C;1&#x4E2A;&#x4E2D;&#x6587;&#x5B57;&#x7B26;&#x7ECF;&#x8FC7;UTF-8&#x7F16;&#x7801;&#x540E;&#x901A;&#x5E38;&#x4F1A;&#x5360;&#x7528;3&#x4E2A;&#x5B57;&#x8282;&#xFF0C;&#x800C;1&#x4E2A;&#x82F1;&#x6587;&#x5B57;&#x7B26;&#x53EA;&#x5360;&#x7528;1&#x4E2A;&#x5B57;&#x8282;&#x3002;</p>
+<p>&#x5728;&#x64CD;&#x4F5C;&#x5B57;&#x7B26;&#x4E32;&#x65F6;&#xFF0C;&#x6211;&#x4EEC;&#x7ECF;&#x5E38;&#x9047;&#x5230;str&#x548C;bytes&#x7684;&#x4E92;&#x76F8;&#x8F6C;&#x6362;&#x3002;&#x4E3A;&#x4E86;&#x907F;&#x514D;&#x4E71;&#x7801;&#x95EE;&#x9898;&#xFF0C;&#x5E94;&#x5F53;&#x59CB;&#x7EC8;&#x575A;&#x6301;&#x4F7F;&#x7528;UTF-8&#x7F16;&#x7801;&#x5BF9;str&#x548C;bytes&#x8FDB;&#x884C;&#x8F6C;&#x6362;&#x3002;</p>
+<p>&#x7531;&#x4E8E;Python&#x6E90;&#x4EE3;&#x7801;&#x4E5F;&#x662F;&#x4E00;&#x4E2A;&#x6587;&#x672C;&#x6587;&#x4EF6;&#xFF0C;&#x6240;&#x4EE5;&#xFF0C;&#x5F53;&#x4F60;&#x7684;&#x6E90;&#x4EE3;&#x7801;&#x4E2D;&#x5305;&#x542B;&#x4E2D;&#x6587;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5728;&#x4FDD;&#x5B58;&#x6E90;&#x4EE3;&#x7801;&#x65F6;&#xFF0C;&#x5C31;&#x9700;&#x8981;&#x52A1;&#x5FC5;&#x6307;&#x5B9A;&#x4FDD;&#x5B58;&#x4E3A;UTF-8&#x7F16;&#x7801;&#x3002;&#x5F53;Python&#x89E3;&#x91CA;&#x5668;&#x8BFB;&#x53D6;&#x6E90;&#x4EE3;&#x7801;&#x65F6;&#xFF0C;&#x4E3A;&#x4E86;&#x8BA9;&#x5B83;&#x6309;UTF-8&#x7F16;&#x7801;&#x8BFB;&#x53D6;&#xFF0C;&#x6211;&#x4EEC;&#x901A;&#x5E38;&#x5728;&#x6587;&#x4EF6;&#x5F00;&#x5934;&#x5199;&#x4E0A;&#x8FD9;&#x4E24;&#x884C;&#xFF1A;</p>
+<pre><code>#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+</code></pre><p>&#x6CE8;&#xFF1A; &#x7533;&#x660E;&#x4E86;UTF-8&#x7F16;&#x7801;&#x5E76;&#x4E0D;&#x610F;&#x5473;&#x7740;&#x4F60;&#x7684;.py&#x6587;&#x4EF6;&#x5C31;&#x662F;UTF-8&#x7F16;&#x7801;&#x7684;&#xFF0C;&#x5FC5;&#x987B;&#x5E76;&#x4E14;&#x8981;&#x786E;&#x4FDD;&#x6587;&#x672C;&#x7F16;&#x8F91;&#x5668;&#x6B63;&#x5728;&#x4F7F;&#x7528;UTF-8 without BOM&#x7F16;&#x7801;</p>
+<h3 id="&#x683C;&#x5F0F;&#x5316;">&#x683C;&#x5F0F;&#x5316;</h3>
+<p>&#x5728;Python&#x4E2D;&#xFF0C;&#x91C7;&#x7528;&#x7684;&#x683C;&#x5F0F;&#x5316;&#x65B9;&#x5F0F;&#x548C;C&#x8BED;&#x8A00;&#x662F;&#x4E00;&#x81F4;&#x7684;&#xFF0C;&#x7528;%&#x5B9E;&#x73B0;&#xFF0C;&#x4E3E;&#x4F8B;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code>&gt;&gt;&gt; &apos;Hello, %s&apos; % &apos;world&apos;
+&apos;Hello, world&apos;
+&gt;&gt;&gt; &apos;Hi, %s, you have $%d.&apos; % (&apos;Michael&apos;, 1000000)
+&apos;Hi, Michael, you have $1000000.&apos;
+</code></pre><p>%&#x8FD0;&#x7B97;&#x7B26;&#x5C31;&#x662F;&#x7528;&#x6765;&#x683C;&#x5F0F;&#x5316;&#x5B57;&#x7B26;&#x4E32;&#x7684;&#x3002;&#x5728;&#x5B57;&#x7B26;&#x4E32;&#x5185;&#x90E8;&#xFF0C;%s&#x8868;&#x793A;&#x7528;&#x5B57;&#x7B26;&#x4E32;&#x66FF;&#x6362;&#xFF0C;%d&#x8868;&#x793A;&#x7528;&#x6574;&#x6570;&#x66FF;&#x6362;&#xFF0C;&#x6709;&#x51E0;&#x4E2A;%?&#x5360;&#x4F4D;&#x7B26;&#xFF0C;&#x540E;&#x9762;&#x5C31;&#x8DDF;&#x51E0;&#x4E2A;&#x53D8;&#x91CF;&#x6216;&#x8005;&#x503C;&#xFF0C;&#x987A;&#x5E8F;&#x8981;&#x5BF9;&#x5E94;&#x597D;&#x3002;&#x5982;&#x679C;&#x53EA;&#x6709;&#x4E00;&#x4E2A;%?&#xFF0C;&#x62EC;&#x53F7;&#x53EF;&#x4EE5;&#x7701;&#x7565;&#x3002;
+&#x5E38;&#x89C1;&#x7684;&#x5360;&#x4F4D;&#x7B26;&#xFF1A;
+| &#x5360;&#x4F4D;&#x7B26; | &#x66FF;&#x6362;&#x5185;&#x5BB9; |
+|--      |--        |
+|%d      |&#x6574;&#x6570;      |
+|%f      |&#x6D6E;&#x70B9;&#x6570;      |
+|%s      |&#x5B57;&#x7B26;&#x4E32;      |
+|%x      |&#x5341;&#x516D;&#x8FDB;&#x5236;&#x6574;&#x6570;|
+&#x5176;&#x4E2D;&#xFF0C;&#x683C;&#x5F0F;&#x5316;&#x6574;&#x6570;&#x548C;&#x6D6E;&#x70B9;&#x6570;&#x8FD8;&#x53EF;&#x4EE5;&#x6307;&#x5B9A;&#x662F;&#x5426;&#x8865;0&#x548C;&#x6574;&#x6570;&#x4E0E;&#x5C0F;&#x6570;&#x7684;&#x4F4D;&#x6570;&#xFF1A;</p>
+<pre><code>&gt;&gt;&gt;print(&apos;%2d-%02d&apos; % (3, 1))
+3-01
+print(&apos;%.2f&apos; % 3.1415926)
+3.14
+</code></pre><p>&#x6709;&#x4E9B;&#x65F6;&#x5019;&#xFF0C;&#x5B57;&#x7B26;&#x4E32;&#x91CC;&#x9762;&#x7684;%&#x662F;&#x4E00;&#x4E2A;&#x666E;&#x901A;&#x5B57;&#x7B26;&#x600E;&#x4E48;&#x529E;&#xFF1F;&#x8FD9;&#x4E2A;&#x65F6;&#x5019;&#x5C31;&#x9700;&#x8981;&#x8F6C;&#x4E49;&#xFF0C;&#x7528;%%&#x6765;&#x8868;&#x793A;&#x4E00;&#x4E2A;%&#xFF1A;</p>
+<pre><code>&gt;&gt;&gt; &apos;growth rate: %d %%&apos; % 7
+&apos;growth rate: 7 %&apos;
+</code></pre><p>format()</p>
+<pre><code>&gt;&gt;&gt; &apos;Hello, {0}, &#x6210;&#x7EE9;&#x63D0;&#x5347;&#x4E86; {1:.1f}%&apos;.format(&apos;&#x5C0F;&#x660E;&apos;, 17.125)
+&apos;Hello, &#x5C0F;&#x660E;, &#x6210;&#x7EE9;&#x63D0;&#x5347;&#x4E86; 17.1%&apos;
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="python2.html" class="navigation navigation-prev " aria-label="Previous page: 数据类型和变量">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="python4.html" class="navigation navigation-next " aria-label="Next page: 使用list和tuple">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"字符串和编码","level":"1.2.3","depth":2,"next":{"title":"使用list和tuple","level":"1.2.4","depth":2,"path":"base/python4.md","ref":"base/python4.md","articles":[]},"previous":{"title":"数据类型和变量","level":"1.2.2","depth":2,"path":"base/python2.md","ref":"base/python2.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"base/python3.md","mtime":"2018-07-10T09:11:11.385Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-07-10T09:18:25.562Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

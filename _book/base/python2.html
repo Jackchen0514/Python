@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>python第一个程序 · GitBook</title>
+        <title>数据类型和变量 · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="python2.html" />
+    <link rel="next" href="python3.html" />
     
     
-    <link rel="prev" href="readme.html" />
+    <link rel="prev" href="python1.html" />
     
 
     </head>
@@ -116,7 +116,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.2.1" data-path="python1.html">
+        <li class="chapter " data-level="1.2.1" data-path="python1.html">
             
                 <a href="python1.html">
             
@@ -129,7 +129,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.2" data-path="python2.html">
+        <li class="chapter active" data-level="1.2.2" data-path="python2.html">
             
                 <a href="python2.html">
             
@@ -229,7 +229,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >python第一个程序</a>
+        <a href=".." >数据类型和变量</a>
     </h1>
 </div>
 
@@ -244,42 +244,50 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="python3x&#x57FA;&#x7840;&#x77E5;&#x8BC6;">Python3.x&#x57FA;&#x7840;&#x77E5;&#x8BC6;</h1>
-<h3 id="&#x76F4;&#x63A5;&#x8FD0;&#x884C;py&#x6587;&#x4EF6;">&#x76F4;&#x63A5;&#x8FD0;&#x884C;py&#x6587;&#x4EF6;</h3>
-<p>windows&#x4E0A;&#x4E0D;&#x884C;&#xFF0C;&#x4F46;&#x5728;mac&#x548C;linux&#x4E0A;&#x53EF;&#x4EE5;&#xFF0C;&#x5728;py&#x6587;&#x4EF6;&#x7B2C;&#x4E00;&#x884C;&#x52A0;&#x4E0A;</p>
-<pre><code>#!/usr/bin/env python
-</code></pre><p>&#x901A;&#x8FC7;&#x547D;&#x4EE4;&#x52A0;&#x4E0A;&#x53EF;&#x6267;&#x884C;&#x6743;&#x9650;:</p>
-<pre><code>$ chmod a+x hello.py
-</code></pre><p>&#x63A5;&#x4E0B;&#x6765;,&#x53EF;&#x4EE5;&#x5728;&#x547D;&#x4EE4;&#x884C;&#x4E0A;&#x8FD0;&#x884C;:</p>
-<pre><code>$ ./hello.py
-$ hello world!
-</code></pre><h3 id="&#x8F93;&#x5165;&#x548C;&#x8F93;&#x51FA;">&#x8F93;&#x5165;&#x548C;&#x8F93;&#x51FA;</h3>
+                                <h1 id="&#x6570;&#x636E;&#x7C7B;&#x578B;&#x548C;&#x53D8;&#x91CF;">&#x6570;&#x636E;&#x7C7B;&#x578B;&#x548C;&#x53D8;&#x91CF;</h1>
+<h3 id="&#x6570;&#x636E;&#x7C7B;&#x578B;">&#x6570;&#x636E;&#x7C7B;&#x578B;</h3>
 <ul>
-<li>&#x8F93;&#x51FA;</li>
+<li><b>&#x6574;&#x6570;</b></li>
 </ul>
-<pre><code>print (&apos;hello&apos; , &apos;world&apos;)
-//&#x6253;&#x5370;&#x6BCF;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;,&#x9047;&#x9017;&#x53F7;&#x8F93;&#x51FA;&#x7A7A;&#x683C;,&#x8FDE;&#x6210;&#x4E00;&#x884C;&#x5B57;&#x7B26;&#x4E32;
-hello world
-</code></pre><pre><code>print (&apos;100 + 200 =&apos; , 100 + 200)
-//&#x8F93;&#x51FA;
-100 + 200 = 300
-</code></pre><ul>
-<li>&#x8F93;&#x5165;</li>
+<p>&#x4EFB;&#x610F;&#x5927;&#x5C0F;&#x7684;&#x6574;&#x6570;&#xFF0C;&#x5F53;&#x7136;&#x5305;&#x62EC;&#x8D1F;&#x6574;&#x6570;</p>
+<ul>
+<li><b>&#x6D6E;&#x70B9;&#x6570;</b></li>
 </ul>
-<p>raw_input()&#x8F93;&#x5165;&#x770B;&#x4F5C;&#x5B57;&#x7B26;&#x7C7B;&#x578B;&#xFF0C;&#x8FD4;&#x56DE;string&#x7C7B;&#x578B;&#xFF1B;</p>
-<pre><code>&gt;&gt;&gt;name = raw_input()
-chenxinsi
-&gt;&gt;&gt;name
-&apos;chenxinsi&apos;
-</code></pre><p>input()&#x5E0C;&#x671B;&#x8F93;&#x5165;&#x5408;&#x6CD5;&#x7684;python&#x683C;&#x5F0F;,&#x5373;&#x8F93;&#x5165;&#x5B57;&#x7B26;&#x4E32;&#x65F6;&#x9700;&#x8981;&#x5F15;&#x53F7;&#x62EC;&#x8D77;&#x6765;,&#x4E0D;&#x7136;&#x4F1A;&#x62A5;&#x8BED;&#x6CD5;&#x9519;&#x8BEF;,
-&#x5B83;&#x5BF9;&#x7EAF;&#x6570;&#x5B57;&#x8F93;&#x5165;&#x6709;&#x81EA;&#x5DF1;&#x7684;&#x7279;&#x6027;,&#x8F93;&#x5165;(float int),&#x4E5F;&#x4F1A;&#x8FD4;&#x56DE;(float int)&#x7C7B;&#x578B;</p>
-<pre><code>def input(prompt):
-    return (eval(raw_input(prompt)))
-</code></pre><p>&#x5176;&#x5B9E;input()&#x51FD;&#x6570;&#x4E5F;&#x662F;&#x4ECE;raw_input()&#x5B9E;&#x73B0;&#x6765;&#x7684;</p>
-<p>&#x9664;&#x975E;&#x5BF9; input() &#x6709;&#x7279;&#x522B;&#x9700;&#x8981;&#xFF0C;&#x5426;&#x5219;&#x4E00;&#x822C;&#x60C5;&#x51B5;&#x4E0B;&#x6211;&#x4EEC;&#x90FD;&#x662F;&#x63A8;&#x8350;&#x4F7F;&#x7528; raw_input() &#x6765;&#x4E0E;&#x7528;&#x6237;&#x4EA4;&#x4E92;&#x3002;
-&#x6CE8;&#x610F;&#xFF1A;python3 &#x91CC; input() &#x9ED8;&#x8BA4;&#x63A5;&#x6536;&#x5230;&#x7684;&#x662F; str &#x7C7B;&#x578B;&#x3002;&#x6570;&#x503C;&#x8BA1;&#x7B97;&#x65F6;&#x9700;&#x8981;&#x5F3A;&#x8F6C;&#x3000;&#x5982;int(input())</p>
-<h3 id="&#x4E2D;&#x6587;&#x683C;&#x5F0F;">&#x4E2D;&#x6587;&#x683C;&#x5F0F;</h3>
-<pre><code>#coding=utf-8
+<p>&#x6D6E;&#x70B9;&#x6570;&#x4E5F;&#x5C31;&#x662F;&#x5C0F;&#x6570;&#xFF0C;&#x4E4B;&#x6240;&#x4EE5;&#x79F0;&#x4E3A;&#x6D6E;&#x70B9;&#x6570;&#xFF0C;&#x662F;&#x56E0;&#x4E3A;&#x6309;&#x7167;&#x79D1;&#x5B66;&#x8BB0;&#x6570;&#x6CD5;&#x8868;&#x793A;&#x65F6;&#xFF0C;&#x4E00;&#x4E2A;&#x6D6E;&#x70B9;&#x6570;&#x7684;&#x5C0F;&#x6570;&#x70B9;&#x4F4D;&#x7F6E;&#x662F;&#x53EF;&#x53D8;&#x7684;&#xFF0C;&#x6BD4;&#x5982;&#xFF0C;1.23x109&#x548C;12.3x108&#x662F;&#x5B8C;&#x5168;&#x76F8;&#x7B49;&#x7684;&#x3002;&#x6D6E;&#x70B9;&#x6570;&#x53EF;&#x4EE5;&#x7528;&#x6570;&#x5B66;&#x5199;&#x6CD5;&#xFF0C;&#x5982;1.23&#xFF0C;3.14&#xFF0C;-9.01&#xFF0C;&#x7B49;&#x7B49;&#x3002;&#x4F46;&#x662F;&#x5BF9;&#x4E8E;&#x5F88;&#x5927;&#x6216;&#x5F88;&#x5C0F;&#x7684;&#x6D6E;&#x70B9;&#x6570;&#xFF0C;&#x5C31;&#x5FC5;&#x987B;&#x7528;&#x79D1;&#x5B66;&#x8BA1;&#x6570;&#x6CD5;&#x8868;&#x793A;&#xFF0C;&#x628A;10&#x7528;e&#x66FF;&#x4EE3;&#xFF0C;1.23x109&#x5C31;&#x662F;1.23e9&#xFF0C;&#x6216;&#x8005;12.3e8&#xFF0C;0.000012&#x53EF;&#x4EE5;&#x5199;&#x6210;1.2e-5&#xFF0C;&#x7B49;&#x7B49;&#x3002;</p>
+<ul>
+<li><b>&#x5B57;&#x7B26;&#x4E32;</b></li>
+</ul>
+<p>&#x5B57;&#x7B26;&#x4E32;&#x662F;&#x4EE5;&#x5355;&#x5F15;&#x53F7;&apos;&#x6216;&#x53CC;&#x5F15;&#x53F7;&quot;&#x62EC;&#x8D77;&#x6765;&#x7684;&#x4EFB;&#x610F;&#x6587;&#x672C;</p>
+<p>&#x5982;&#x679C;&#x5B57;&#x7B26;&#x4E32;&#x5185;&#x90E8;&#x65E2;&#x5305;&#x542B;&apos;&#x53C8;&#x5305;&#x542B;&quot;&#x600E;&#x4E48;&#x529E;&#xFF1F;&#x53EF;&#x4EE5;&#x7528;&#x8F6C;&#x4E49;&#x5B57;&#x7B26;\&#x6765;&#x6807;&#x8BC6;&#xFF0C;&#x6BD4;&#x5982;&#xFF1A;</p>
+<pre><code>&apos;I\&apos;m \&quot;OK\&quot;!&apos;
+</code></pre><p>&#x8868;&#x793A;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x5185;&#x5BB9;&#x662F;&#xFF1A;</p>
+<pre><code>I&apos;m &quot;OK&quot;!
+</code></pre><p>&#x8F6C;&#x4E49;&#x5B57;&#x7B26;\&#x53EF;&#x4EE5;&#x8F6C;&#x4E49;&#x5F88;&#x591A;&#x5B57;&#x7B26;&#xFF0C;&#x6BD4;&#x5982;\n&#x8868;&#x793A;&#x6362;&#x884C;&#xFF0C;\t&#x8868;&#x793A;&#x5236;&#x8868;&#x7B26;&#xFF0C;&#x5B57;&#x7B26;\&#x672C;&#x8EAB;&#x4E5F;&#x8981;&#x8F6C;&#x4E49;&#xFF0C;&#x6240;&#x4EE5;\&#x8868;&#x793A;&#x7684;&#x5B57;&#x7B26;&#x5C31;&#x662F;\</p>
+<ul>
+<li><b>&#x5E03;&#x5C14;&#x503C;</b></li>
+</ul>
+<p>&#x4E00;&#x4E2A;&#x5E03;&#x5C14;&#x503C;&#x53EA;&#x6709;True&#x3001;False&#x4E24;&#x79CD;&#x503C;</p>
+<p>&#x5E03;&#x5C14;&#x503C;&#x53EF;&#x4EE5;&#x7528;and&#x3001;or&#x548C;not&#x8FD0;&#x7B97;</p>
+<ul>
+<li><b>&#x7A7A;&#x503C;</b></li>
+</ul>
+<p>&#x7A7A;&#x503C;&#x662F;Python&#x91CC;&#x4E00;&#x4E2A;&#x7279;&#x6B8A;&#x7684;&#x503C;&#xFF0C;&#x7528;None&#x8868;&#x793A;&#x3002;</p>
+<h3 id="&#x53D8;&#x91CF;">&#x53D8;&#x91CF;</h3>
+<p>&#x53D8;&#x91CF;&#x7684;&#x6982;&#x5FF5;&#x57FA;&#x672C;&#x4E0A;&#x548C;&#x521D;&#x4E2D;&#x4EE3;&#x6570;&#x7684;&#x65B9;&#x7A0B;&#x53D8;&#x91CF;&#x662F;&#x4E00;&#x81F4;&#x7684;&#xFF0C;&#x53EA;&#x662F;&#x5728;&#x8BA1;&#x7B97;&#x673A;&#x7A0B;&#x5E8F;&#x4E2D;&#xFF0C;&#x53D8;&#x91CF;&#x4E0D;&#x4EC5;&#x53EF;&#x4EE5;&#x662F;&#x6570;&#x5B57;&#xFF0C;&#x8FD8;&#x53EF;&#x4EE5;&#x662F;&#x4EFB;&#x610F;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x3002;</p>
+<p>&#x53D8;&#x91CF;&#x5728;&#x7A0B;&#x5E8F;&#x4E2D;&#x5C31;&#x662F;&#x7528;&#x4E00;&#x4E2A;&#x53D8;&#x91CF;&#x540D;&#x8868;&#x793A;&#x4E86;&#xFF0C;&#x53D8;&#x91CF;&#x540D;&#x5FC5;&#x987B;&#x662F;&#x5927;&#x5C0F;&#x5199;&#x82F1;&#x6587;&#x3001;&#x6570;&#x5B57;&#x548C;_&#x7684;&#x7EC4;&#x5408;&#xFF0C;&#x4E14;&#x4E0D;&#x80FD;&#x7528;&#x6570;&#x5B57;&#x5F00;&#x5934;&#xFF0C;</p>
+<h3 id="&#x5E38;&#x91CF;">&#x5E38;&#x91CF;</h3>
+<p>&#x6240;&#x8C13;&#x5E38;&#x91CF;&#x5C31;&#x662F;&#x4E0D;&#x80FD;&#x53D8;&#x7684;&#x53D8;&#x91CF;
+&apos;/&apos;&#x9664;&#x6CD5;&#x8BA1;&#x7B97;&#x7ED3;&#x679C;&#x662F;&#x6D6E;&#x70B9;&#x6570;</p>
+<pre><code>&gt;&gt;&gt; 10 / 3
+3.333333333333
+</code></pre><pre><code>&gt;&gt;&gt; 9 / 3
+3.0
+</code></pre><p>&apos;//&apos;&#x6574;&#x9664;</p>
+<pre><code>&gt;&gt;&gt; 10 // 3
+3
+</code></pre><p>&apos;%&apos;&#x53D6;&#x4F59;</p>
+<pre><code>&gt;&gt;&gt; 10 % 3
+1
 </code></pre>
                                 
                                 </section>
@@ -307,12 +315,12 @@ chenxinsi
 
             
                 
-                <a href="readme.html" class="navigation navigation-prev " aria-label="Previous page: Python基础">
+                <a href="python1.html" class="navigation navigation-prev " aria-label="Previous page: python第一个程序">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="python2.html" class="navigation navigation-next " aria-label="Next page: 数据类型和变量">
+                <a href="python3.html" class="navigation navigation-next " aria-label="Next page: 字符串和编码">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -323,7 +331,7 @@ chenxinsi
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"python第一个程序","level":"1.2.1","depth":2,"next":{"title":"数据类型和变量","level":"1.2.2","depth":2,"path":"base/python2.md","ref":"base/python2.md","articles":[]},"previous":{"title":"Python基础","level":"1.2","depth":1,"path":"base/readme.md","ref":"base/readme.md","articles":[{"title":"python第一个程序","level":"1.2.1","depth":2,"path":"base/python1.md","ref":"base/python1.md","articles":[]},{"title":"数据类型和变量","level":"1.2.2","depth":2,"path":"base/python2.md","ref":"base/python2.md","articles":[]},{"title":"字符串和编码","level":"1.2.3","depth":2,"path":"base/python3.md","ref":"base/python3.md","articles":[]},{"title":"使用list和tuple","level":"1.2.4","depth":2,"path":"base/python4.md","ref":"base/python4.md","articles":[]},{"title":"条件判断和循环","level":"1.2.5","depth":2,"path":"base/python5.md","ref":"base/python5.md","articles":[]},{"title":"dict和set","level":"1.2.6","depth":2,"path":"base/python6.md","ref":"base/python6.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"base/python1.md","mtime":"2018-07-10T08:33:53.384Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-07-10T09:18:25.562Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"数据类型和变量","level":"1.2.2","depth":2,"next":{"title":"字符串和编码","level":"1.2.3","depth":2,"path":"base/python3.md","ref":"base/python3.md","articles":[]},"previous":{"title":"python第一个程序","level":"1.2.1","depth":2,"path":"base/python1.md","ref":"base/python1.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"base/python2.md","mtime":"2018-07-10T09:10:31.564Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-07-10T09:18:25.562Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
