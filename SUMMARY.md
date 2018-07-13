@@ -8,5 +8,7 @@
     * [使用list和tuple](base/python4.md)
     * [条件判断和循环](base/python5.md)
     * [dict和set](base/python6.md)
+    * [python面向对象](base/python7.md)
+    
     
 
