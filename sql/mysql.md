@@ -73,6 +73,18 @@ pip3 install wheel
 pip3 install pymysql
 ```
 
+## mysql允许远程连接
+
+
+将host字段的值改为%就表示在任何客户端机器上能以root用户登录到mysql服务器，建议在开发时设为%。
+
+```
+mysql> use mysql;
+Database changed
+mysql> grant all privileges  on *.* to root@'%' identified by "xxxxxxx密码";
+Query OK, 0 rows affected (0.00 sec)
+```
+
 ## 参考
 
 [mysql安装及配置](https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en/)

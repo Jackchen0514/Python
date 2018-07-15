@@ -1,0 +1,602 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>pymysql基础使用 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../widget/readme.html" />
+    
+    
+    <link rel="prev" href="mysql.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../base/readme.html">
+            
+                <a href="../base/readme.html">
+            
+                    
+                    Python基础
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../base/python1.html">
+            
+                <a href="../base/python1.html">
+            
+                    
+                    python第一个程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../base/python2.html">
+            
+                <a href="../base/python2.html">
+            
+                    
+                    数据类型和变量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../base/python3.html">
+            
+                <a href="../base/python3.html">
+            
+                    
+                    字符串和编码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../base/python4.html">
+            
+                <a href="../base/python4.html">
+            
+                    
+                    使用list和tuple
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../base/python5.html">
+            
+                <a href="../base/python5.html">
+            
+                    
+                    条件判断和循环
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../base/python6.html">
+            
+                <a href="../base/python6.html">
+            
+                    
+                    dict和set
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../base/python7.html">
+            
+                <a href="../base/python7.html">
+            
+                    
+                    python面向对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../django/readme.html">
+            
+                <a href="../django/readme.html">
+            
+                    
+                    django
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="readme.html">
+            
+                <a href="readme.html">
+            
+                    
+                    MySql基础
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="mysql.html">
+            
+                <a href="mysql.html">
+            
+                    
+                    mysql安装及配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.2" data-path="mysql1.html">
+            
+                <a href="mysql1.html">
+            
+                    
+                    pymysql基础使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../widget/readme.html">
+            
+                <a href="../widget/readme.html">
+            
+                    
+                    实用工具
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../widget/pyenv.html">
+            
+                <a href="../widget/pyenv.html">
+            
+                    
+                    pyenv
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >pymysql基础使用</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="mysql&#x57FA;&#x672C;&#x64CD;&#x4F5C;">mysql&#x57FA;&#x672C;&#x64CD;&#x4F5C;</h1>
+<h2 id="&#x6570;&#x636E;&#x5E93;&#x8FDE;&#x63A5;">&#x6570;&#x636E;&#x5E93;&#x8FDE;&#x63A5;</h2>
+<pre><code># Connect to the database
+connection = pymysql.connect(host=&apos;localhost&apos;,
+                             user=&apos;user&apos;,
+                             password=&apos;passwd&apos;,
+                             db=&apos;db&apos;,
+                             charset=&apos;utf8mb4&apos;,
+                             cursorclass=pymysql.cursors.DictCursor)
+</code></pre><h2 id="&#x521B;&#x5EFA;&#x6570;&#x636E;&#x5E93;&#x8868;">&#x521B;&#x5EFA;&#x6570;&#x636E;&#x5E93;&#x8868;</h2>
+<pre><code>cursor = db.cursor()
+cursor.execute(&quot;drop table if exists teachers&quot;)
+
+sql = &quot;&quot;&quot;create table teachers(
+         name char(20) not null,
+         age int,
+         sex char(1))
+         ENGINE = INNODB
+         CHARACTER SET utf8
+         COLLATE utf8_general_ci
+         AUTO_INCREMENT=1&quot;&quot;&quot;
+cursor.execute(sql)
+db.close()
+</code></pre><h2 id="&#x6570;&#x636E;&#x5E93;&#x63D2;&#x5165;">&#x6570;&#x636E;&#x5E93;&#x63D2;&#x5165;</h2>
+<pre><code>sql = &quot;&quot;&quot;insert into teachers(name, age, sex) 
+         values(%s, %s, %s)&quot;&quot;&quot;
+try:
+    cursor = db.cursor()
+    cursor.execute(sql, (&quot;&#x9648;&#x5FC3;&#x601D;&quot;, 24, &apos;M&apos;))
+    db.commit()
+    print(&quot;insert success&quot;)
+except pymysql.Error as e:
+    print(&quot;insert except %s&quot; % e)
+    db.rollback()
+finally:
+    db.close()
+</code></pre><h2 id="&#x6570;&#x636E;&#x5E93;&#x67E5;&#x8BE2;">&#x6570;&#x636E;&#x5E93;&#x67E5;&#x8BE2;</h2>
+<p>Python&#x67E5;&#x8BE2;Mysql&#x4F7F;&#x7528; fetchone() &#x65B9;&#x6CD5;&#x83B7;&#x53D6;&#x5355;&#x6761;&#x6570;&#x636E;, &#x4F7F;&#x7528;fetchall() &#x65B9;&#x6CD5;&#x83B7;&#x53D6;&#x591A;&#x6761;&#x6570;&#x636E;&#x3002;</p>
+<ul>
+<li>fetchone(): &#x8BE5;&#x65B9;&#x6CD5;&#x83B7;&#x53D6;&#x4E0B;&#x4E00;&#x4E2A;&#x67E5;&#x8BE2;&#x7ED3;&#x679C;&#x96C6;&#x3002;&#x7ED3;&#x679C;&#x96C6;&#x662F;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;</li>
+<li>fetchall(): &#x63A5;&#x6536;&#x5168;&#x90E8;&#x7684;&#x8FD4;&#x56DE;&#x7ED3;&#x679C;&#x884C;.</li>
+<li>rowcount: &#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x53EA;&#x8BFB;&#x5C5E;&#x6027;&#xFF0C;&#x5E76;&#x8FD4;&#x56DE;&#x6267;&#x884C;execute()&#x65B9;&#x6CD5;&#x540E;&#x5F71;&#x54CD;&#x7684;&#x884C;&#x6570;&#x3002;</li>
+</ul>
+<pre><code># &#x4F7F;&#x7528;cursor()&#x65B9;&#x6CD5;&#x83B7;&#x53D6;&#x64CD;&#x4F5C;&#x6E38;&#x6807; 
+cursor = db.cursor()
+
+# SQL &#x67E5;&#x8BE2;&#x8BED;&#x53E5;
+sql = &quot;SELECT * FROM EMPLOYEE \
+       WHERE INCOME &gt; &apos;%d&apos;&quot; % (1000)
+try:
+   # &#x6267;&#x884C;SQL&#x8BED;&#x53E5;
+   cursor.execute(sql)
+   # &#x83B7;&#x53D6;&#x6240;&#x6709;&#x8BB0;&#x5F55;&#x5217;&#x8868;
+   results = cursor.fetchall()
+   for row in results:
+      fname = row[0]
+      lname = row[1]
+      age = row[2]
+      sex = row[3]
+      income = row[4]
+       # &#x6253;&#x5370;&#x7ED3;&#x679C;
+      print (&quot;fname=%s,lname=%s,age=%d,sex=%s,income=%d&quot; % \
+             (fname, lname, age, sex, income ))
+except:
+   print (&quot;Error: unable to fetch data&quot;)
+finally:
+    db.close()
+</code></pre><h2 id="&#x6570;&#x636E;&#x5E93;&#x66F4;&#x65B0;">&#x6570;&#x636E;&#x5E93;&#x66F4;&#x65B0;</h2>
+<pre><code># &#x4F7F;&#x7528;cursor()&#x65B9;&#x6CD5;&#x83B7;&#x53D6;&#x64CD;&#x4F5C;&#x6E38;&#x6807; 
+cursor = db.cursor()
+
+# SQL &#x66F4;&#x65B0;&#x8BED;&#x53E5;
+sql = &quot;UPDATE EMPLOYEE SET AGE = AGE + 1 WHERE SEX = &apos;%c&apos;&quot; % (&apos;M&apos;)
+try:
+   # &#x6267;&#x884C;SQL&#x8BED;&#x53E5;
+   cursor.execute(sql)
+   # &#x63D0;&#x4EA4;&#x5230;&#x6570;&#x636E;&#x5E93;&#x6267;&#x884C;
+   db.commit()
+except:
+   # &#x53D1;&#x751F;&#x9519;&#x8BEF;&#x65F6;&#x56DE;&#x6EDA;
+   db.rollback()
+
+# &#x5173;&#x95ED;&#x6570;&#x636E;&#x5E93;&#x8FDE;&#x63A5;
+db.close()
+</code></pre><h2 id="&#x5220;&#x9664;&#x64CD;&#x4F5C;">&#x5220;&#x9664;&#x64CD;&#x4F5C;</h2>
+<pre><code># &#x4F7F;&#x7528;cursor()&#x65B9;&#x6CD5;&#x83B7;&#x53D6;&#x64CD;&#x4F5C;&#x6E38;&#x6807; 
+cursor = db.cursor()
+
+# SQL &#x5220;&#x9664;&#x8BED;&#x53E5;
+sql = &quot;DELETE FROM EMPLOYEE WHERE AGE &gt; &apos;%d&apos;&quot; % (20)
+try:
+   # &#x6267;&#x884C;SQL&#x8BED;&#x53E5;
+   cursor.execute(sql)
+   # &#x63D0;&#x4EA4;&#x4FEE;&#x6539;
+   db.commit()
+except:
+   # &#x53D1;&#x751F;&#x9519;&#x8BEF;&#x65F6;&#x56DE;&#x6EDA;
+   db.rollback()
+
+# &#x5173;&#x95ED;&#x8FDE;&#x63A5;
+db.close()
+</code></pre><h2 id="&#x6267;&#x884C;&#x4E8B;&#x52A1;">&#x6267;&#x884C;&#x4E8B;&#x52A1;</h2>
+<p>&#x4E8B;&#x52A1;&#x673A;&#x5236;&#x53EF;&#x4EE5;&#x786E;&#x4FDD;&#x6570;&#x636E;&#x4E00;&#x81F4;&#x6027;&#x3002;</p>
+<p>&#x4E8B;&#x52A1;&#x5E94;&#x8BE5;&#x5177;&#x6709;4&#x4E2A;&#x5C5E;&#x6027;&#xFF1A;&#x539F;&#x5B50;&#x6027;&#x3001;&#x4E00;&#x81F4;&#x6027;&#x3001;&#x9694;&#x79BB;&#x6027;&#x3001;&#x6301;&#x4E45;&#x6027;&#x3002;&#x8FD9;&#x56DB;&#x4E2A;&#x5C5E;&#x6027;&#x901A;&#x5E38;&#x79F0;&#x4E3A;ACID&#x7279;&#x6027;&#x3002;</p>
+<ul>
+<li>&#x539F;&#x5B50;&#x6027;&#xFF08;atomicity&#xFF09;&#x3002;&#x4E00;&#x4E2A;&#x4E8B;&#x52A1;&#x662F;&#x4E00;&#x4E2A;&#x4E0D;&#x53EF;&#x5206;&#x5272;&#x7684;&#x5DE5;&#x4F5C;&#x5355;&#x4F4D;&#xFF0C;&#x4E8B;&#x52A1;&#x4E2D;&#x5305;&#x62EC;&#x7684;&#x8BF8;&#x64CD;&#x4F5C;&#x8981;&#x4E48;&#x90FD;&#x505A;&#xFF0C;&#x8981;&#x4E48;&#x90FD;&#x4E0D;&#x505A;&#x3002;</li>
+<li>&#x4E00;&#x81F4;&#x6027;&#xFF08;consistency&#xFF09;&#x3002;&#x4E8B;&#x52A1;&#x5FC5;&#x987B;&#x662F;&#x4F7F;&#x6570;&#x636E;&#x5E93;&#x4ECE;&#x4E00;&#x4E2A;&#x4E00;&#x81F4;&#x6027;&#x72B6;&#x6001;&#x53D8;&#x5230;&#x53E6;&#x4E00;&#x4E2A;&#x4E00;&#x81F4;&#x6027;&#x72B6;&#x6001;&#x3002;&#x4E00;&#x81F4;&#x6027;&#x4E0E;&#x539F;&#x5B50;&#x6027;&#x662F;&#x5BC6;&#x5207;&#x76F8;&#x5173;&#x7684;&#x3002;</li>
+<li>&#x9694;&#x79BB;&#x6027;&#xFF08;isolation&#xFF09;&#x3002;&#x4E00;&#x4E2A;&#x4E8B;&#x52A1;&#x7684;&#x6267;&#x884C;&#x4E0D;&#x80FD;&#x88AB;&#x5176;&#x4ED6;&#x4E8B;&#x52A1;&#x5E72;&#x6270;&#x3002;&#x5373;&#x4E00;&#x4E2A;&#x4E8B;&#x52A1;&#x5185;&#x90E8;&#x7684;&#x64CD;&#x4F5C;&#x53CA;&#x4F7F;&#x7528;&#x7684;&#x6570;&#x636E;&#x5BF9;&#x5E76;&#x53D1;&#x7684;&#x5176;&#x4ED6;&#x4E8B;&#x52A1;&#x662F;&#x9694;&#x79BB;&#x7684;&#xFF0C;&#x5E76;&#x53D1;&#x6267;&#x884C;&#x7684;&#x5404;&#x4E2A;&#x4E8B;&#x52A1;&#x4E4B;&#x95F4;&#x4E0D;&#x80FD;&#x4E92;&#x76F8;&#x5E72;&#x6270;&#x3002;</li>
+<li>&#x6301;&#x4E45;&#x6027;&#xFF08;durability&#xFF09;&#x3002;&#x6301;&#x7EED;&#x6027;&#x4E5F;&#x79F0;&#x6C38;&#x4E45;&#x6027;&#xFF08;permanence&#xFF09;&#xFF0C;&#x6307;&#x4E00;&#x4E2A;&#x4E8B;&#x52A1;&#x4E00;&#x65E6;&#x63D0;&#x4EA4;&#xFF0C;&#x5B83;&#x5BF9;&#x6570;&#x636E;&#x5E93;&#x4E2D;&#x6570;&#x636E;&#x7684;&#x6539;&#x53D8;&#x5C31;&#x5E94;&#x8BE5;&#x662F;&#x6C38;&#x4E45;&#x6027;&#x7684;&#x3002;&#x63A5;&#x4E0B;&#x6765;&#x7684;&#x5176;&#x4ED6;&#x64CD;&#x4F5C;&#x6216;&#x6545;&#x969C;&#x4E0D;&#x5E94;&#x8BE5;&#x5BF9;&#x5176;&#x6709;&#x4EFB;&#x4F55;&#x5F71;&#x54CD;&#x3002;</li>
+</ul>
+<pre><code># SQL&#x5220;&#x9664;&#x8BB0;&#x5F55;&#x8BED;&#x53E5;
+sql = &quot;DELETE FROM EMPLOYEE WHERE AGE &gt; &apos;%d&apos;&quot; % (20)
+try:
+   # &#x6267;&#x884C;SQL&#x8BED;&#x53E5;
+   cursor.execute(sql)
+   # &#x5411;&#x6570;&#x636E;&#x5E93;&#x63D0;&#x4EA4;
+   db.commit()
+except:
+   # &#x53D1;&#x751F;&#x9519;&#x8BEF;&#x65F6;&#x56DE;&#x6EDA;
+   db.rollback()
+</code></pre><p>&#x5BF9;&#x4E8E;&#x652F;&#x6301;&#x4E8B;&#x52A1;&#x7684;&#x6570;&#x636E;&#x5E93;&#xFF0C; &#x5728;Python&#x6570;&#x636E;&#x5E93;&#x7F16;&#x7A0B;&#x4E2D;&#xFF0C;&#x5F53;&#x6E38;&#x6807;&#x5EFA;&#x7ACB;&#x4E4B;&#x65F6;&#xFF0C;&#x5C31;&#x81EA;&#x52A8;&#x5F00;&#x59CB;&#x4E86;&#x4E00;&#x4E2A;&#x9690;&#x5F62;&#x7684;&#x6570;&#x636E;&#x5E93;&#x4E8B;&#x52A1;&#x3002;</p>
+<p>commit()&#x65B9;&#x6CD5;&#x6E38;&#x6807;&#x7684;&#x6240;&#x6709;&#x66F4;&#x65B0;&#x64CD;&#x4F5C;&#xFF0C;rollback&#xFF08;&#xFF09;&#x65B9;&#x6CD5;&#x56DE;&#x6EDA;&#x5F53;&#x524D;&#x6E38;&#x6807;&#x7684;&#x6240;&#x6709;&#x64CD;&#x4F5C;&#x3002;&#x6BCF;&#x4E00;&#x4E2A;&#x65B9;&#x6CD5;&#x90FD;&#x5F00;&#x59CB;&#x4E86;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x4E8B;&#x52A1;&#x3002;</p>
+<h2 id="&#x9519;&#x8BEF;&#x5904;&#x7406;">&#x9519;&#x8BEF;&#x5904;&#x7406;</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x5F02;&#x5E38;</th>
+<th style="text-align:left">&#x63CF;&#x8FF0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Warning</td>
+<td style="text-align:left">&#x5F53;&#x6709;&#x4E25;&#x91CD;&#x8B66;&#x544A;&#x65F6;&#x89E6;&#x53D1;&#xFF0C;&#x4F8B;&#x5982;&#x63D2;&#x5165;&#x6570;&#x636E;&#x662F;&#x88AB;&#x622A;&#x65AD;&#x7B49;&#x7B49;&#x3002;&#x5FC5;&#x987B;&#x662F; StandardError &#x7684;&#x5B50;&#x7C7B;&#x3002;</td>
+</tr>
+<tr>
+<td style="text-align:left">Error</td>
+<td style="text-align:left">&#x8B66;&#x544A;&#x4EE5;&#x5916;&#x6240;&#x6709;&#x5176;&#x4ED6;&#x9519;&#x8BEF;&#x7C7B;&#x3002;&#x5FC5;&#x987B;&#x662F; StandardError &#x7684;&#x5B50;&#x7C7B;&#x3002;</td>
+</tr>
+<tr>
+<td style="text-align:left">InterfaceError</td>
+<td style="text-align:left">&#x5F53;&#x6709;&#x6570;&#x636E;&#x5E93;&#x63A5;&#x53E3;&#x6A21;&#x5757;&#x672C;&#x8EAB;&#x7684;&#x9519;&#x8BEF;&#xFF08;&#x800C;&#x4E0D;&#x662F;&#x6570;&#x636E;&#x5E93;&#x7684;&#x9519;&#x8BEF;&#xFF09;&#x53D1;&#x751F;&#x65F6;&#x89E6;&#x53D1;&#x3002; &#x5FC5;&#x987B;&#x662F;Error&#x7684;&#x5B50;&#x7C7B;&#x3002;</td>
+</tr>
+<tr>
+<td style="text-align:left">DatabaseError</td>
+<td style="text-align:left">&#x548C;&#x6570;&#x636E;&#x5E93;&#x6709;&#x5173;&#x7684;&#x9519;&#x8BEF;&#x53D1;&#x751F;&#x65F6;&#x89E6;&#x53D1;&#x3002; &#x5FC5;&#x987B;&#x662F;Error&#x7684;&#x5B50;&#x7C7B;&#x3002;</td>
+</tr>
+<tr>
+<td style="text-align:left">DataError</td>
+<td style="text-align:left">&#x5F53;&#x6709;&#x6570;&#x636E;&#x5904;&#x7406;&#x65F6;&#x7684;&#x9519;&#x8BEF;&#x53D1;&#x751F;&#x65F6;&#x89E6;&#x53D1;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;&#x9664;&#x96F6;&#x9519;&#x8BEF;&#xFF0C;&#x6570;&#x636E;&#x8D85;&#x8303;&#x56F4;&#x7B49;&#x7B49;&#x3002; &#x5FC5;&#x987B;&#x662F;DatabaseError&#x7684;&#x5B50;&#x7C7B;&#x3002;</td>
+</tr>
+<tr>
+<td style="text-align:left">OperationalError</td>
+<td style="text-align:left">&#x6307;&#x975E;&#x7528;&#x6237;&#x63A7;&#x5236;&#x7684;&#xFF0C;&#x800C;&#x662F;&#x64CD;&#x4F5C;&#x6570;&#x636E;&#x5E93;&#x65F6;&#x53D1;&#x751F;&#x7684;&#x9519;&#x8BEF;&#x3002;&#x4F8B;&#x5982;&#xFF1A;&#x8FDE;&#x63A5;&#x610F;&#x5916;&#x65AD;&#x5F00;&#x3001; &#x6570;&#x636E;&#x5E93;&#x540D;&#x672A;&#x627E;&#x5230;&#x3001;&#x4E8B;&#x52A1;&#x5904;&#x7406;&#x5931;&#x8D25;&#x3001;&#x5185;&#x5B58;&#x5206;&#x914D;&#x9519;&#x8BEF;&#x7B49;&#x7B49;&#x64CD;&#x4F5C;&#x6570;&#x636E;&#x5E93;&#x662F;&#x53D1;&#x751F;&#x7684;&#x9519;&#x8BEF;&#x3002; &#x5FC5;&#x987B;&#x662F;DatabaseError&#x7684;&#x5B50;&#x7C7B;&#x3002;</td>
+</tr>
+<tr>
+<td style="text-align:left">IntegrityError</td>
+<td style="text-align:left">&#x5B8C;&#x6574;&#x6027;&#x76F8;&#x5173;&#x7684;&#x9519;&#x8BEF;&#xFF0C;&#x4F8B;&#x5982;&#x5916;&#x952E;&#x68C0;&#x67E5;&#x5931;&#x8D25;&#x7B49;&#x3002;&#x5FC5;&#x987B;&#x662F;DatabaseError&#x5B50;&#x7C7B;&#x3002;</td>
+</tr>
+<tr>
+<td style="text-align:left">InternalError</td>
+<td style="text-align:left">&#x6570;&#x636E;&#x5E93;&#x7684;&#x5185;&#x90E8;&#x9519;&#x8BEF;&#xFF0C;&#x4F8B;&#x5982;&#x6E38;&#x6807;&#xFF08;cursor&#xFF09;&#x5931;&#x6548;&#x4E86;&#x3001;&#x4E8B;&#x52A1;&#x540C;&#x6B65;&#x5931;&#x8D25;&#x7B49;&#x7B49;&#x3002; &#x5FC5;&#x987B;&#x662F;DatabaseError&#x5B50;&#x7C7B;&#x3002;</td>
+</tr>
+<tr>
+<td style="text-align:left">ProgrammingError</td>
+<td style="text-align:left">&#x7A0B;&#x5E8F;&#x9519;&#x8BEF;&#xFF0C;&#x4F8B;&#x5982;&#x6570;&#x636E;&#x8868;&#xFF08;table&#xFF09;&#x6CA1;&#x627E;&#x5230;&#x6216;&#x5DF2;&#x5B58;&#x5728;&#x3001;SQL&#x8BED;&#x53E5;&#x8BED;&#x6CD5;&#x9519;&#x8BEF;&#x3001; &#x53C2;&#x6570;&#x6570;&#x91CF;&#x9519;&#x8BEF;&#x7B49;&#x7B49;&#x3002;&#x5FC5;&#x987B;&#x662F;DatabaseError&#x7684;&#x5B50;&#x7C7B;&#x3002;</td>
+</tr>
+<tr>
+<td style="text-align:left">NotSupportedError</td>
+<td style="text-align:left">&#x4E0D;&#x652F;&#x6301;&#x9519;&#x8BEF;&#xFF0C;&#x6307;&#x4F7F;&#x7528;&#x4E86;&#x6570;&#x636E;&#x5E93;&#x4E0D;&#x652F;&#x6301;&#x7684;&#x51FD;&#x6570;&#x6216;API&#x7B49;&#x3002;&#x4F8B;&#x5982;&#x5728;&#x8FDE;&#x63A5;&#x5BF9;&#x8C61;&#x4E0A; &#x4F7F;&#x7528;.rollback()&#x51FD;&#x6570;&#xFF0C;&#x7136;&#x800C;&#x6570;&#x636E;&#x5E93;&#x5E76;&#x4E0D;&#x652F;&#x6301;&#x4E8B;&#x52A1;&#x6216;&#x8005;&#x4E8B;&#x52A1;&#x5DF2;&#x5173;&#x95ED;&#x3002; &#x5FC5;&#x987B;&#x662F;DatabaseError&#x7684;&#x5B50;&#x7C7B;&#x3002;</td>
+</tr>
+</tbody>
+</table>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="mysql.html" class="navigation navigation-prev " aria-label="Previous page: mysql安装及配置">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../widget/readme.html" class="navigation navigation-next " aria-label="Next page: 实用工具">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"pymysql基础使用","level":"1.4.2","depth":2,"next":{"title":"实用工具","level":"1.5","depth":1,"path":"widget/readme.md","ref":"widget/readme.md","articles":[{"title":"pyenv","level":"1.5.1","depth":2,"path":"widget/pyenv.md","ref":"widget/pyenv.md","articles":[]}]},"previous":{"title":"mysql安装及配置","level":"1.4.1","depth":2,"path":"sql/mysql.md","ref":"sql/mysql.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"sql/mysql1.md","mtime":"2018-07-14T09:17:51.387Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-07-15T15:18:29.579Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
