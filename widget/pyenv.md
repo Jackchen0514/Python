@@ -94,6 +94,7 @@ exec $SHELL
 使用自动安装pyenv 后，它会自动安装部分插件，通过pyenv-virtualenv 插件可以很好的和 virtualenv 结合：
 
 ```
+
 [root@linux3311 ~]# cd .pyenv/plugins/
 [root@linux3311 plugins]# ll
 insgesamt 24
@@ -103,22 +104,21 @@ drwxr-xr-x. 4 root root 4096 19. Jun 05:18 pyenv-update
 drwxr-xr-x. 7 root root 4096 19. Jun 05:18 pyenv-virtualenv
 drwxr-xr-x. 4 root root 4096 19. Jun 05:18 pyenv-which-ext
 drwxr-xr-x. 5 root root 4096 19. Jun 05:17 python-build
+
 ```
 
 - **使用**
-   
 
-
-- 创建虚拟环境 `$ pyenv virtualenv 2.7.10 my-virtual-env-2.7.10`
-若不指定python 版本，会汇报认使用当前环境python版本。
-
-- 列出当前虚拟环境 `pyenv virtualenvs`
-
-- 激活虚拟环境 `pyenv activate`
-
-- 退出虚拟环境 `pyenv deactivate`
-
-- 删除虚拟环境 `pyenv uninstall my-virtual-env`
+    - 创建虚拟环境 `$ pyenv virtualenv 2.7.10 my-virtual-env-2.7.10`
+    若不指定python 版本，会汇报认使用当前环境python版本。
+    
+    - 列出当前虚拟环境 `pyenv virtualenvs`
+    
+    - 激活虚拟环境 `pyenv activate`
+    
+    - 退出虚拟环境 `pyenv deactivate`
+    
+    - 删除虚拟环境 `pyenv uninstall my-virtual-env`
 
 使用pyenv 来管理python，使用 pyenv-virtualenv 插件来管理多版本 python包。
 
