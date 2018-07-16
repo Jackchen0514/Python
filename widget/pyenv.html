@@ -403,24 +403,22 @@
 <li><p><strong>python&#x4F18;&#x5148;&#x7EA7;</strong></p>
 <p> <code>shell &gt; local &gt; global</code></p>
 </li>
-<li><p><strong>&#x89E3;&#x51B3;pyenv&#x4E0B;&#x8F7D;&#x6162;</strong></p>
+<li><p><strong>&#x89E3;&#x51B3;pyenv&#x4E0B;&#x8F7D;&#x6162;</strong>
+```
+wget &#x4E0B;&#x8F7D;&#x8DEF;&#x52B2;</p>
 </li>
 </ul>
-<pre><code>wget &#x4E0B;&#x8F7D;&#x8DEF;&#x52B2;
-
-mv xx ~/.penv/cache
-
-cache&#x6CA1;&#x6709;&#x7684;&#x8BDD;&#xFF0C;&#x81EA;&#x884C;&#x521B;&#x5EFA;
-</code></pre><h2 id="pyenv-&#x63D2;&#x4EF6;-pyenv-virtualenv">pyenv &#x63D2;&#x4EF6;: pyenv-virtualenv</h2>
-<ul>
-<li><strong>&#x5B89;&#x88C5;</strong></li>
-</ul>
-<pre><code>git clone git://github.com/yyuu/pyenv-virtualenv.git ~/.pyenv/plugins/pyenv-virtualenv
-
-exec $SHELL
-</code></pre><p>&#x4F7F;&#x7528;&#x81EA;&#x52A8;&#x5B89;&#x88C5;pyenv &#x540E;&#xFF0C;&#x5B83;&#x4F1A;&#x81EA;&#x52A8;&#x5B89;&#x88C5;&#x90E8;&#x5206;&#x63D2;&#x4EF6;&#xFF0C;&#x901A;&#x8FC7;pyenv-virtualenv &#x63D2;&#x4EF6;&#x53EF;&#x4EE5;&#x5F88;&#x597D;&#x7684;&#x548C; virtualenv &#x7ED3;&#x5408;&#xFF1A;</p>
+<p>mv xx ~/.penv/cache</p>
+<p>cache&#x6CA1;&#x6709;&#x7684;&#x8BDD;&#xFF0C;&#x81EA;&#x884C;&#x521B;&#x5EFA;</p>
 <pre><code>
-[root@linux3311 ~]# cd .pyenv/plugins/
+## pyenv &#x63D2;&#x4EF6;: pyenv-virtualenv
+
+- **&#x5B89;&#x88C5;**
+</code></pre><p>git clone git://github.com/yyuu/pyenv-virtualenv.git ~/.pyenv/plugins/pyenv-virtualenv</p>
+<p>exec $SHELL</p>
+<pre><code>
+&#x4F7F;&#x7528;&#x81EA;&#x52A8;&#x5B89;&#x88C5;pyenv &#x540E;&#xFF0C;&#x5B83;&#x4F1A;&#x81EA;&#x52A8;&#x5B89;&#x88C5;&#x90E8;&#x5206;&#x63D2;&#x4EF6;&#xFF0C;&#x901A;&#x8FC7;pyenv-virtualenv &#x63D2;&#x4EF6;&#x53EF;&#x4EE5;&#x5F88;&#x597D;&#x7684;&#x548C; virtualenv &#x7ED3;&#x5408;&#xFF1A;
+</code></pre><p>[root@linux3311 ~]# cd .pyenv/plugins/
 [root@linux3311 plugins]# ll
 insgesamt 24
 drwxr-xr-x. 4 root root 4096 19. Jun 05:17 pyenv-doctor
@@ -428,8 +426,9 @@ drwxr-xr-x. 5 root root 4096 19. Jun 05:18 pyenv-installer
 drwxr-xr-x. 4 root root 4096 19. Jun 05:18 pyenv-update
 drwxr-xr-x. 7 root root 4096 19. Jun 05:18 pyenv-virtualenv
 drwxr-xr-x. 4 root root 4096 19. Jun 05:18 pyenv-which-ext
-drwxr-xr-x. 5 root root 4096 19. Jun 05:17 python-build
-</code></pre><ul>
+drwxr-xr-x. 5 root root 4096 19. Jun 05:17 python-build</p>
+<p>```</p>
+<ul>
 <li><p><strong>&#x4F7F;&#x7528;</strong></p>
 <ul>
 <li><p>&#x521B;&#x5EFA;&#x865A;&#x62DF;&#x73AF;&#x5883; <code>$ pyenv virtualenv 2.7.10 my-virtual-env-2.7.10</code>
@@ -488,7 +487,7 @@ drwxr-xr-x. 5 root root 4096 19. Jun 05:17 python-build
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"pyenv","level":"1.5.1","depth":2,"previous":{"title":"实用工具","level":"1.5","depth":1,"path":"widget/readme.md","ref":"widget/readme.md","articles":[{"title":"pyenv","level":"1.5.1","depth":2,"path":"widget/pyenv.md","ref":"widget/pyenv.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"widget/pyenv.md","mtime":"2018-07-15T16:23:40.522Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-07-15T16:28:19.586Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"pyenv","level":"1.5.1","depth":2,"previous":{"title":"实用工具","level":"1.5","depth":1,"path":"widget/readme.md","ref":"widget/readme.md","articles":[{"title":"pyenv","level":"1.5.1","depth":2,"path":"widget/pyenv.md","ref":"widget/pyenv.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"widget/pyenv.md","mtime":"2018-07-16T03:45:54.124Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-07-16T07:19:47.850Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
@@ -496,6 +495,10 @@ drwxr-xr-x. 5 root root 4096 19. Jun 05:17 python-build
         
     <script src="../gitbook/gitbook.js"></script>
     <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
     
         
         <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
