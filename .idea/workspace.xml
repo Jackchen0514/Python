@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="209471c6-fa1b-4587-8b5c-bc527ccd4751" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/widget/pyenv.md" beforeDir="false" afterPath="$PROJECT_DIR$/widget/pyenv.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/django/readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/SUMMARY.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="363">
+              <first_editor relative-caret-position="242">
                 <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
               </first_editor>
               <second_editor />
@@ -29,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/widget/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="66">
+              <first_editor relative-caret-position="44">
                 <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
               </first_editor>
               <second_editor />
@@ -41,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/base/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="561">
+              <first_editor relative-caret-position="374">
                 <caret line="17" selection-start-line="17" selection-end-line="17" />
               </first_editor>
               <second_editor />
@@ -63,32 +64,32 @@
         <entry file="file://$PROJECT_DIR$/sql/mysql.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="779">
-                <caret line="80" column="3" lean-forward="true" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
+              <first_editor relative-caret-position="1760">
+                <caret line="92" selection-start-line="92" selection-end-line="92" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pyenv.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pyenv.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/widget/pyenv.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="977">
-                <caret line="124" column="3" lean-forward="true" selection-start-line="124" selection-start-column="3" selection-end-line="124" selection-end-column="3" />
+              <first_editor relative-caret-position="658">
+                <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/django/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="528">
-                <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <first_editor relative-caret-position="4282">
+                <caret line="196" column="60" lean-forward="true" selection-start-line="196" selection-start-column="60" selection-end-line="196" selection-end-column="60" />
               </first_editor>
               <second_editor />
             </state>
@@ -99,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/sql/mysql1.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="528">
+              <first_editor relative-caret-position="352">
                 <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
               </first_editor>
               <second_editor />
@@ -111,7 +112,7 @@
         <entry file="file://$PROJECT_DIR$/base/python6.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="3498">
+              <first_editor relative-caret-position="2332">
                 <caret line="106" selection-start-line="106" selection-end-line="106" />
               </first_editor>
               <second_editor />
@@ -123,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/base/python7.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="14586">
+              <first_editor relative-caret-position="9724">
                 <caret line="442" column="3" selection-start-line="442" selection-start-column="3" selection-end-line="442" selection-end-column="3" />
               </first_editor>
               <second_editor />
@@ -151,9 +152,9 @@
         <option value="$PROJECT_DIR$/sql/mysql1.md" />
         <option value="$PROJECT_DIR$/sql/mysql.md" />
         <option value="$PROJECT_DIR$/widget/readme.md" />
-        <option value="$PROJECT_DIR$/django/readme.md" />
         <option value="$PROJECT_DIR$/SUMMARY.md" />
         <option value="$PROJECT_DIR$/widget/pyenv.md" />
+        <option value="$PROJECT_DIR$/django/readme.md" />
       </list>
     </option>
   </component>
@@ -167,16 +168,17 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="508" />
-    <option name="y" value="42" />
-    <option name="width" value="2766" />
-    <option name="height" value="1758" />
+    <option name="x" value="373" />
+    <option name="y" value="39" />
+    <option name="width" value="1855" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,12 +210,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/django_study" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -253,32 +254,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="508" y="42" width="2766" height="1758" extended-state="0" />
-    <editor active="true" />
+    <frame x="373" y="39" width="1855" height="1056" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49926144" weight="0.32911393" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50073856" side_tool="true" visible="true" weight="0.008502289" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50073856" side_tool="true" visible="true" weight="0.008648649" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2766195" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27971256" />
       <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -697,7 +697,7 @@
     <entry file="file://$PROJECT_DIR$/base/python6.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="3498">
+          <first_editor relative-caret-position="2332">
             <caret line="106" selection-start-line="106" selection-end-line="106" />
           </first_editor>
           <second_editor />
@@ -707,7 +707,7 @@
     <entry file="file://$PROJECT_DIR$/base/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="561">
+          <first_editor relative-caret-position="374">
             <caret line="17" selection-start-line="17" selection-end-line="17" />
           </first_editor>
           <second_editor />
@@ -717,18 +717,8 @@
     <entry file="file://$PROJECT_DIR$/base/python7.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="14586">
+          <first_editor relative-caret-position="9724">
             <caret line="442" column="3" selection-start-line="442" selection-start-column="3" selection-end-line="442" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/django/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="528">
-            <caret line="16" selection-start-line="16" selection-end-line="16" />
           </first_editor>
           <second_editor />
         </state>
@@ -737,7 +727,7 @@
     <entry file="file://$PROJECT_DIR$/SUMMARY.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="363">
+          <first_editor relative-caret-position="242">
             <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           </first_editor>
           <second_editor />
@@ -747,7 +737,7 @@
     <entry file="file://$PROJECT_DIR$/widget/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="66">
+          <first_editor relative-caret-position="44">
             <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
           </first_editor>
           <second_editor />
@@ -765,7 +755,7 @@
     <entry file="file://$PROJECT_DIR$/sql/mysql1.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="528">
+          <first_editor relative-caret-position="352">
             <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
           </first_editor>
           <second_editor />
@@ -775,8 +765,8 @@
     <entry file="file://$PROJECT_DIR$/sql/mysql.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="779">
-            <caret line="80" column="3" lean-forward="true" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
+          <first_editor relative-caret-position="1760">
+            <caret line="92" selection-start-line="92" selection-end-line="92" />
           </first_editor>
           <second_editor />
         </state>
@@ -785,8 +775,18 @@
     <entry file="file://$PROJECT_DIR$/widget/pyenv.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="977">
-            <caret line="124" column="3" lean-forward="true" selection-start-line="124" selection-start-column="3" selection-end-line="124" selection-end-column="3" />
+          <first_editor relative-caret-position="658">
+            <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="4282">
+            <caret line="196" column="60" lean-forward="true" selection-start-line="196" selection-start-column="60" selection-end-line="196" selection-end-column="60" />
           </first_editor>
           <second_editor />
         </state>
