@@ -207,5 +207,6 @@ sudo nginx -s reload
 
 [1.uwsgi-doc] http://uwsgi-docs.readthedocs.io/en/latest/tutorials/Django_and_nginx.html#configure-nginx-for-your-site
 
-[1.django with uWSGI] https://docs.djangoproject.com/en/dev/howto/deployment/wsgi/uwsgi/
+[2.django with uWSGI] https://docs.djangoproject.com/en/dev/howto/deployment/wsgi/uwsgi/
 
+[3.django第一周学习] https://segmentfault.com/a/1190000005171218
