@@ -15,6 +15,9 @@
 * [MySql基础](sql/readme.md)
     * [mysql安装及配置](sql/mysql.md)   
     * [pymysql基础使用](sql/mysql1.md)
+* [Linux](linux/readme.md)
+* [Docker](docker/readme.md)
+    * [docker基本使用](docker/docker1.md)
 * [实用工具](widget/readme.md)
     * [pyenv](widget/pyenv.md)
     
